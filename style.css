@@ -1,5 +1,12 @@
 
     body {font-family: Arial;}
+
+    #main-header{
+      font-size: 12px;
+      background-color: #ffffff;
+      color:#76b3b8 !important;
+      text-align: center;
+  }
     
     /* Style the tab */
     .tab {
@@ -7,11 +14,16 @@
       border: 1px solid #ccc;
       background-color: #f1f1f1;
     }
+    #navbar{
+      /* background-color: red;
+      color: #fff;
+      */
+      text-align: center;
+    }
     
     /* Style the buttons inside the tab */
     .tab button {
       background-color: inherit;
-      float: left;
       border: none;
       outline: none;
       cursor: pointer;
@@ -39,11 +51,13 @@
     }
     
     /* Style the close button */
+   
     .topright {
       float: right;
       cursor: pointer;
       font-size: 28px;
     }
+    
     
     .topright:hover {color: red;}
     .my-image{
