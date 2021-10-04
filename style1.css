@@ -1,6 +1,7 @@
 
     body {font-family: Arial;}
     
+    
     #main-header{
       font-size: 12px;
       background-color: #ffffff;
@@ -51,8 +52,7 @@
       font-size: 28px;
     }
     .topright:hover {color: red;}
-    
-    @media(min-width:468px){
+ 
    
     .flex-container{
       display:flex;
@@ -68,10 +68,13 @@
       border:1px #ccc solid;
       padding:10px;
     }
-  }
     .my-image{
         display: block;
         margin: auto;
         width: 250px;
     }
-    
+    @media (max-width: 800px) {
+      .flex-container {
+        flex-direction: column;
+      }
+    }
