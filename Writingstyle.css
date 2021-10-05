@@ -1,10 +1,11 @@
-.flex-container {
+body {font-family: Arial;}
+.flex-w-container {
     display: flex;
     flex-direction: column;
     /* background-color: DodgerBlue; */
   }
   
-  .flex-container > div {
+  .flex-w-container > div {
     border:1px #ccc solid;
     background-color:white;
     margin: 10px;

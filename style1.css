@@ -64,7 +64,7 @@
       flex-direction:column;
       */
     }
-    .flex-container div {
+    .flex-container  div {
       border:1px #ccc solid;
       padding:10px;
     }
