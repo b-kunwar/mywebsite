@@ -73,7 +73,7 @@
         margin: auto;
         width: 250px;
     }
-    @media (max-width: 800px) {
+    @media (max-width: 750px) {
       .flex-container {
         flex-direction: column;
       }
