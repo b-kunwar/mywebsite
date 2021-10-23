@@ -41,7 +41,7 @@
     .tabcontent {
       display: none;
       padding: 6px 12px;
-      border: 1px solid #ccc;
+      /* border: 1px solid red; */
       border-top: none;
     }
      /* Style the close button */
@@ -65,7 +65,7 @@
       */
     }
     .flex-container  div {
-      border:1px #ccc solid;
+      border:none;
       padding:10px;
     }
     .my-image{
@@ -73,6 +73,9 @@
         margin: auto;
         width: 250px;
     }
+    ul.my-list {
+      list-style-type: none;
+  }
     @media (max-width: 750px) {
       .flex-container {
         flex-direction: column;

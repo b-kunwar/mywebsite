@@ -16,9 +16,9 @@
   <div class="tab">
     <button class="tablinks" onclick="openTab(event, 'Home')" id="defaultOpen">Home</button>
     <button class="tablinks" onclick="openTab(event, 'CV')">CV</button>
-    <button class="tablinks" onclick="openTab(event, 'Publications')">Publications</button>
+    <button class="tablinks" onclick="openTab(event, 'Publication')">Publication</button>
+    <button class="tablinks" onclick="openTab(event, 'Project')">Project</button>
     <button class="tablinks" onclick="openTab(event, 'Writing')">Writing</button>
-    <button class="tablinks" onclick="openTab(event, 'About Me')">About Me</button>
     <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
   </div>
 </nav>    
@@ -32,13 +32,13 @@
         <img class="my-image" src="images/bikash.png"  alt="bikash kunwar">
       </div>
       <div>
-        <p>Helllo hi  <br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, praesentium nihil! Ab eius fuga, perferendis excepturi error vel inventore, ratione dolor sed voluptate ad veniam velit vero enim libero maxime!</p>
+        <p>Helllo hi </H5> <br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, praesentium nihil! Ab eius fuga, perferendis excepturi error vel inventore, ratione dolor sed voluptate ad veniam velit vero enim libero maxime!</p>
       </div>
     </div> 
   </div>
 </div>
 
-<div id="Publications" class="tabcontent">
+<div id="Publication" class="tabcontent">
   <!-- <span onclick="this.parentElement.style.display='none'" class="topright">&times</span> -->
   <div w3-include-html="Publications.html"></div> 
     <script>
@@ -48,22 +48,30 @@
 <div id="CV" class="tabcontent">
   <!-- <span onclick="this.parentElement.style.display='none'" class="topright">&times</span> -->
 
- <p>
-   Click <a href="CV.pdf" target="_blank">here</a> if the page doesn't load.
- </p>
+  <p>
+    Click <a href="CV.pdf" target="_blank">here</a> if the page doesn't load.
+  </p>
   <embed src="CV.pdf" width="100%" height="450px" /> 
-  
 </div>
+
 <div id="Writing" class="tabcontent">
   <!-- <span onclick="this.parentElement.style.display='none'" class="topright">&times</span> -->
-  <div w3-include-html="Writing.html"></div> 
+  <div w3-include-html="writing.html"></div> 
     <script>
       includeHTML();
     </script>
 </div>
+<div id="Project" class="tabcontent">
+  <!-- <span onclick="this.parentElement.style.display='none'" class="topright">&times</span> -->
+  <div w3-include-html="project.html"></div> 
+    <script>
+      includeHTML();
+    </script>
+</div>
+
 <div id="Contact" class="tabcontent">
   <!-- <span onclick="this.parentElement.style.display='none'" class="topright">&times</span> -->
-  <div w3-include-html="Contact.html"></div> 
+  <div w3-include-html="contactme.html"></div> 
     <script>
       includeHTML();
     </script>
